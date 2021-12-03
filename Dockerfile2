@@ -1,0 +1,6 @@
+FROM secitif-db
+WORKDIR /opt/lampp/htdocs
+COPY secitifcedro ./secitifcedro
+COPY artigos_secitifcedro ./artigos_secitifcedro
+RUN chmod 777 -R ./artigos_secitifcedro
+COPY index.php .

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:cod_curso;datatype:string,name:titulo;datatype:string,name:total_vagas;datatype:int,name:vagas_disponiveis;datatype:int,name:descricao;datatype:blob,name:evento;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:cod_curso;datatype:string,name:email;datatype:string,name:email;datatype:string,name:senha;datatype:string,name:nome;datatype:string,name:sobrenome;datatype:string,name:endereco;datatype:string,name:bairro;datatype:string,name:cidade;datatype:string,name:uf;datatype:string,name:celular;datatype:string,name:telefone;datatype:string,name:d_nascimento;datatype:date,name:d_inscricao;datatype:date,name:ativo;datatype:string" />
+</info>

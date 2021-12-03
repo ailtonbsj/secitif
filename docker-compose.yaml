@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  database:
+    image: secitif-db
+    container_name: secitif-db1
+    build: .
+
+  app:
+    image: secitif-app
+    container_name: secitif-app1
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile2
+    depends_on:
+      - database
